@@ -1,0 +1,139 @@
+body {
+    background-image:url(../images/bg-desktop.png);
+    background-size: cover;
+    background-color: rgb(12, 18, 44);
+    background-repeat: no-repeat;
+    background-position: 0 400px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.caja1 {
+    top: 290px;
+    left: 84px;
+    border: 1px solid rgb(30, 44, 105);
+    background-color: rgb(30, 44, 105);
+    border-radius:10px ;
+    border-top-right-radius: 100px;
+    height: 199px;
+    width: 352px;
+    padding: 25px 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    padding: 0 0 5px;
+    margin: 0 5%;
+}
+
+.cajitas {
+    background-color: rgb(12, 18, 40);
+    padding: 5% 5%;
+    margin: 30px 5px 5px;
+    border-radius: 8px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.caja2 {
+    top: 300px;
+    left: 150px;
+    border: 1px solid rgb(30, 44, 105);
+    border-radius:10px;
+    background-color: rgb(30, 44, 105);
+    display: inline-block;
+    width: 540px;
+    height: 152px;
+    padding: 15px 15px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 510px;
+}
+
+.contenedorbarrita {
+    position: relative;
+    width: 510px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #161E4A;
+    margin-left: 5px;
+}
+
+.barritadegradada {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+    height: 11px;
+    width: 400px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px 0 2px 2px;
+    position: absolute;
+}
+
+.punto {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: white;
+    right: 2px;
+}
+
+.cajaincrustada {
+    display: inline-block;
+    width: 180px;
+    height: 74px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 320px;
+    left: 850px;
+}
+
+.numerogrande {
+    position: absolute;
+    font-size: 40px;
+    color: black; 
+    display: inline-block;
+    font-weight: bold;
+    top: -1px;
+    left: 10px;
+}
+
+.gb {
+    position: absolute;
+    color: rgb(151, 151, 159);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    top: 15px;
+    left: 90px;
+}
+
+.cajaincrustada::after {
+    content: '';
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    border: 30px solid transparent;
+    border-right-color: white;
+    right: 0px;
+    bottom: -30px;
+}
+
+.attribution {
+    top: 400px;
+    position: relative;
+}
